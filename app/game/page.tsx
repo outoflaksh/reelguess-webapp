@@ -33,7 +33,7 @@ export default async function GamePage() {
                     })}
                 </div>
             </div>
-            <div className="flex justify-center mt-12">
+            <div className="flex flex-col justify-center mt-12 md:flex-row">
                 <div className="overflow-hidden mr-6 rounded-xl">
                     <Image
                         src={movieDetails.moviePosterUrl}
